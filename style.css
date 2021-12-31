@@ -1,0 +1,106 @@
+:root{
+    --cor1: grey;
+    --cor2:black;
+    --cor3:rgba(255, 255, 0, 0.835);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--cor1);
+    font: bold 1.4rem 'Open Sans', sans-serif;
+
+}
+.todo{
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    gap: 15px;
+}
+.todo_title{
+    display: flex;
+    background:var(--cor2);
+    width: 100%;
+    height: 80px;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px var(--cor2);
+    padding: 10px;
+    color: var(--cor3);
+}
+.todo_list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.todo_item{
+    display:flex;
+    width: 75%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 5px var(--cor2);
+    color: var(--cor3);
+    margin: auto;
+
+}
+.todo_item > div{
+    width: 80%;
+
+}
+.todo_item:hover{
+    cursor: pointer;
+    transition: all .5s ease;
+    background: var(--cor2);
+  
+}
+.todo_item > input[type='text']{
+    border:none;
+    width: 80%;
+    font: inherit;
+}
+.todo_item > input[type="button"],.todo_item > input[type='checkbox']{
+    width: 30px;
+    height: 30px;
+    font: inherit;
+    
+}
+.todo_item > input[type = 'checkbox']:checked + div{
+    text-decoration: line-through;
+    /*quando o checked for ativado o texto será riscado  */
+}
+.todo_new-item{
+    display: flex;
+    background: #fff59d;
+    width: 80%;
+    height: 70px;
+    justify-content: space-evenly;
+    padding: 10px ;
+    box-shadow: 1px 1px 5px var(--cor2);
+    margin: 10px;
+    font: inherit;
+}
+.todo_new-item > input{
+    background: #fff59d;
+    border: none;
+    width: 100%;
+    outline: none;
+    font: inherit;
+
+}
+.todo_new-item > input::placeholder{
+    font-style: italic;
+    font-weight: normal;
+}
+
