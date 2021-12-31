@@ -1,9 +1,4 @@
-// let banco = [
-//     {'tarefa':'estudar js','status':''},
-//     {'tarefa':'estudar','status':'checked'}
-// ]
-
-
+ 
 
 
 const getBanco = () => JSON.parse(localStorage.getItem('todoList')) ?? [];
