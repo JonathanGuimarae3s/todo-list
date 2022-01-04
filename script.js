@@ -31,7 +31,7 @@ const atualizarTela = () =>{
     const banco = getBanco();
     banco.forEach((item, indice) => criar (item.tarefa,item.status,indice));
    
-    /*pega os objetos e os indices do banco de dados e manda para callback(que é a função criar)  */
+    /*pega os objetos e os indices do banco de dados e manda para  a função criar)  */
 }
 const inserirItem = (evento) =>{
    const tecla = evento.key
