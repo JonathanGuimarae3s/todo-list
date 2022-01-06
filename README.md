@@ -1,8 +1,7 @@
 <h1 align ="center"> ToDo- List</h1>
 <hr> 
 
-<img src = "https://raw.githubusercontent.com/JonathanGuimarae3s/todo-list/main/github/gif.gif" width ="30px>
-
+<img src="https://github.com/JonathanGuimarae3s/todo-list/blob/main/github/gif.gif">
 
 ## 🚀 Tecnologias
 
