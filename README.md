@@ -17,7 +17,7 @@ Site: <a href="https://jonathanguimarae3s.github.io/todo-list/">Todo-List (Jonat
 <h2>Objetivo</h2>
 O objetivo do Todo-List é ajudar na organização das tarefas do usuário.
 <h2>Objetivo pessoal</h2>
-Meu objetivo com esse projeto foi aplicar os conhecimentos que adiquiri no módulo de JavaScript  intermediário do curso do Programador Br. Tive algumas dificuldas em  criar um banco de dados com LocalStorage, mas obtivo êxito em concluir esse projeto.
+Meu objetivo com esse projeto foi aplicar os conhecimentos que adquiri no módulo de JavaScript  intermediário do curso do Programador Br. Tive algumas dificuldades em  criar um banco de dados com LocalStorage, mas obtivo êxito em concluir esse projeto.
 Conhecimentos :
 
 - Json
